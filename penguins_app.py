@@ -2,6 +2,7 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import pickle
+import aiohttp
 from sklearn.ensemble import RandomForestClassifier
 
 # Set page configuration with title, icon, and layout
